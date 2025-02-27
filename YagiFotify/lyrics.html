@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=h3, initial-scale=1.0">
+        <title>My song lyrcis</title>
+        <link rel="stylesheet" href="yagz.css">
+        <link rel="icon" type="image/png" href="Shape.png">
+        
+    </head>
+    <body>
+        <h1 class="titel">Shape of you</h1>
+        <h4 class="artist">Song by Ed sheeran</h4>
+
+        <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank" title="Going to Youtube">
+            <img  class="cover" src="pictures/Shape.png" alt="Picture cover" height="500" width="">
+            <audio class="song" controls autoplay muted loop>
+                <source src="audio/Shape of you.mp3">
+            </audio>
+        </a>
+        <br>
+
+
+        <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank" 
+        title="Going to youtube">
+            Original video
+        </a>
+        <hr>
+        <h2 id="ly" class="lyrics">Lyrics</h2>
+      
+<pre class="lyrics">
+The club isn't the best place to find a lover
+So the bar is where I go
+Me and my friends at the table doing shots
+Drinking fast and then we talk slow <span id="dots">...</span> <span id="more">
+Come over and start up a conversation with just me
+And trust me I'll give it a chance now
+Take my hand, stop, put Van the Man on the jukebox
+And then we start to dance, and now I'm singing like
+
+Girl, you know I want your love
+Your love was handmade for somebody like me
+Come on now, follow my lead
+I may be crazy, don't mind me
+Say, boy, let's not talk too much
+Grab on my waist and put that body on me
+Come on now, follow my lead
+Come, come on now, follow my lead
+
+I'm in love with the shape of you
+We push and pull like a magnet do
+Although my heart is falling too
+I'm in love with your body
+And last night you were in my room
+And now my bedsheets smell like you
+Every day discovering something brand new
+I'm in love with your body
+(Oh-I-oh-I-oh-I-oh-I)
+I'm in love with your body
+(Oh-I-oh-I-oh-I-oh-I)
+I'm in love with your body
+(Oh-I-oh-I-oh-I-oh-I)
+I'm in love with your body
+Every day discovering something brand new
+I'm in love with the shape of you
+
+One week in we let the story begin
+We're going out on our first date
+You and me are thrifty, so go all you can eat
+Fill up your bag and I fill up a plate
+We talk for hours and hours about the sweet and the sour
+And how your family is doing okay
+And leave and get in a taxi, then kiss in the backseat
+Tell the driver make the radio play, and I'm singing like
+
+Girl, you know I want your love
+Your love was handmade for somebody like me
+Come on now, follow my lead
+I may be crazy, don't mind me
+Say, boy, let's not talk too much
+Grab on my waist and put that body on me
+Come on now, follow my lead
+Come, come on now, follow my lead
+
+I'm in love with the shape of you
+We push and pull like a magnet do
+Although my heart is falling too
+I'm in love with your body
+And last night you were in my room
+And now my bedsheets smell like you
+Every day discovering something brand new
+I'm in love with your body
+(Oh-I-oh-I-oh-I-oh-I)
+I'm in love with your body
+(Oh-I-oh-I-oh-I-oh-I)
+I'm in love with your body
+(Oh-I-oh-I-oh-I-oh-I)
+I'm in love with your body
+Every day discovering something brand new
+I'm in love with the shape of you
+
+Come on, be my baby, come on
+Come on, be my baby, come on
+Come on, be my baby, come on
+Come on, be my baby, come on
+Come on, be my baby, come on
+Come on, be my baby, come on
+Come on, be my baby, come on
+Come on, be my baby, come on
+
+I'm in love with the shape of you
+We push and pull like a magnet do
+Although my heart is falling too
+I'm in love with your body
+And last night you were in my room
+And now my bedsheets smell like you
+Every day discovering something brand new
+I'm in love with your body
+Come on, be my baby, come on
+Come on (I'm in love with your body), be my baby, come on
+Come on, be my baby, come on
+Come on (I'm in love with your body), be my baby, come on
+Come on, be my baby, come on
+Come on (I'm in love with your body), be my baby, come on
+Every day discovering something brand new
+I'm in love with the shape of you
+
+</span></pre>
+<button onclick="myFunction()" id="myBtn">Show more</button>
+
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+        
+    </body>
+</html>
