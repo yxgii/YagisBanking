@@ -1,0 +1,169 @@
+body {
+    background: linear-gradient(to top, rgb(164, 216, 237), white);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+#nigga {
+    color: rgb(177, 140, 132);
+    position: absolute;
+    left: 44%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wat {
+    padding: 20px;
+
+}
+
+.songs {
+    border-radius: 2%;
+    size: cover;
+    margin-left: 20px;
+    border-radius: 2%;
+
+
+  
+}
+
+#habiba {
+    margin-left: 19px;
+}
+
+.cover {
+    position: relative;
+    left: 20%;
+    border-radius: 2%;
+}
+
+.song {
+    position: relative;
+    left: -19%;
+}
+
+.titel {
+    position: relative;
+    left: 43%;
+    font-size: 40px;
+    margin-bottom: 2px;
+
+
+}
+
+.artist {
+    position: relative;
+    left: 45%;
+    margin-top: 2px;
+}
+
+.lyrics {
+    position: relative;
+    left: 37%;
+    font-size: 16px;
+}
+
+#ly {
+    position: relative;
+    left: 45%;
+    font-size: 40px
+}
+
+.imagee {
+    position: relative;
+}
+
+.base {
+    width: 500px;
+    height: 270px;
+    position: relative;
+}
+
+#base {
+    width: 500px;
+    height: 270px;
+    position: relative;
+}
+
+#basee {
+    width: 500px;
+    height: 270px;
+    position: relative;
+}
+
+
+.power {
+    width: 550px;
+    height: 270px;
+    background: rgba(14, 167, 218, 0.6);
+    position: absolute;
+    top: -124px;
+    left: 20px;
+    border-radius: 2%;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+
+
+#power {
+    width: 480px;
+    height: 270px;
+    background: rgba(14, 167, 218, 0.6);
+    position: absolute;
+    top: -124px;
+    left: 20px;
+    border-radius: 2%;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+#powerr {
+    width: 550px;
+    height: 270px;
+    background: rgba(14, 167, 218, 0.6);
+    position: absolute;
+    top: -124px;
+    left: 20px;
+    border-radius: 2%;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.textbig {
+    position: relative;
+    top: 45%;
+    left: 28%;
+    color: white;
+    font-size: 35px;
+}
+
+.power:hover {
+    opacity: 1;
+}
+
+#power:hover {
+    opacity: 1;
+}
+
+#powerr:hover {
+    opacity: 1;
+}
+
+#habibapower:hover {
+    opacity: 1;
+}
+
+#more {
+    display: none;
+}
+
+#myBtn {
+    background-color: rgb(87, 101, 101);
+    color: antiquewhite;
+    position: relative;
+    left: 46%;
+    border-radius: 10%;
+}
+
