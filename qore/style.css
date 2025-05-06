@@ -38,6 +38,38 @@ body, html {
     color: #cceeea;
 }
 
+/* Stijl voor de navigatiebalk */
+nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #00ffd5;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #00ffd5;
+    color: #000;
+  }
+  
+
 
 section {
     background: rgba(255, 255, 255, 0.08);
@@ -94,6 +126,58 @@ p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+
+.subcompany {
+    position: relative;
+    text-align: center;
+}
+
+.sub-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 213, 0.3);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+
+.sub-image.active {
+    transform: scale(1.2);
+    filter: blur(5px);
+}
+
+.sub-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    display: none;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    overflow-y: auto; 
+    height: auto;
+}
+
+.sub-text.active {
+    display: block;
+    max-height: none; 
+    overflow: visible; 
+}
+
+#qexperience .sub-text img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
 
 @media (max-width: 768px) {
     .portfolio-header h1 {
