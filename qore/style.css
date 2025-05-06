@@ -38,16 +38,23 @@ body, html {
     color: #cceeea;
 }
 
-/* Stijl voor de navigatiebalk */
+.click-instruction {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #939292;
+    text-align: center;
+}
+  
+
 nav {
     text-align: center;
     margin-top: 20px;
-  }
+}
   
   nav ul {
     list-style: none;
     padding: 0;
-  }
+}
   
   nav ul li {
     display: inline-block;
