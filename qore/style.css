@@ -14,7 +14,7 @@ body, html {
 }
 
 .background-overlay {
-    background: linear-gradient(rgba(0,0,0,0.85), rgba(0, 0, 0, 0.85)), url('Pics/Q-Vision.JPG') no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0, 0, 0, 0.85)), url('Pics/Q-Visionn.JPG') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     padding: 0 20px 60px;
